@@ -1,4 +1,4 @@
-name: Deploy NuGet
+name: Publish NuGet
 
 on:
   workflow_dispatch:
@@ -18,3 +18,6 @@ jobs:
       run: dotnet build --configuration release
     - name: Package
       run: dotnet pack --configuration release 
+    - name: Publish
+      run: dotnet nuget push *.nupkg --api-key ${{secrets.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json
+
