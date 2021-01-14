@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PocketTools", "PocketTools\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PocketTools.Test", "PocketTools.Test\PocketTools.Test.csproj", "{1F0C74B3-5CCB-48EB-A180-A56A01F0E149}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D55B6B11-8095-439D-BE48-264DA3072E0C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\BuildAndTest.yml = .github\workflows\BuildAndTest.yml
+		.github\workflows\DeployNuGet.yml = .github\workflows\DeployNuGet.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
