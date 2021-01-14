@@ -1,4 +1,5 @@
 # PocketTools
 General-purpose static and extension methods
 
-![Build And Test](https://github.com/Gaslite/PocketTools/workflows/Build%20And%20Test/badge.svg)dotnet nuget push
+![Build and Test](https://github.com/Gaslite/PocketTools/workflows/Build%20and%20Test/badge.svg) 
+![Publish NuGet](https://github.com/Gaslite/PocketTools/workflows/Publish%20NuGet/badge.svg)
